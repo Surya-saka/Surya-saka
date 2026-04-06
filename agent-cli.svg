@@ -6,175 +6,239 @@
   <circle cx="18" cy="14" r="5" fill="#da3633"/>
   <circle cx="36" cy="14" r="5" fill="#f0883e"/>
   <circle cx="54" cy="14" r="5" fill="#39d353"/>
-  <text x="375" y="18" text-anchor="middle" fill="#8b949e" font-size="11">surya@system ~ ./agents --autonomous</text>
-  <text x="25" y="48" fill="#39d353" font-size="11">$ ./boot_agents --mode=autonomous --chain=true</text>
-  <text x="25" y="64" fill="#58a6ff" font-size="10">[ok] swarm v3 loaded :: 5 agents online :: chain synced</text>
-  <rect x="18" y="75" width="714" height="155" rx="3" fill="none" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
-  <text x="28" y="88" fill="#484f58" font-size="9">LIVE NETWORK</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1847</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1848</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1849</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1850</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1851</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1852</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1853</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;1;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1854</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;0;1;0" dur="5s" repeatCount="indefinite"/>BLK:#1855</text>
-  <text x="700" y="88" text-anchor="end" fill="#f0883e" font-size="9" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;0;0;1" dur="5s" repeatCount="indefinite"/>BLK:#1856</text>
-  <rect x="340" y="140" width="70" height="26" rx="3" fill="#0d1117" stroke="#f0883e" stroke-width="1.5">
-    <animate attributeName="stroke-opacity" calcMode="discrete" values="0.5;0.8;1;0.8;0.5;0.7;1;0.6;0.9;0.5" dur="2s" repeatCount="indefinite"/>
-  </rect>
-  <text x="375" y="158" text-anchor="middle" fill="#f0883e" font-size="11">[####]</text>
-  <circle r="5" fill="#58a6ff">
-    <animate attributeName="cx" calcMode="discrete" values="95;108;120;112;100;88;105;118;96;110" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="118;112;120;115;122;118;110;116;124;114" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="5" fill="#39d353">
-    <animate attributeName="cx" calcMode="discrete" values="600;588;610;595;618;605;580;598;612;590" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="112;118;108;115;110;120;114;106;118;112" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="4" fill="#58a6ff">
-    <animate attributeName="cx" calcMode="discrete" values="130;148;140;155;135;150;142;160;138;145" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="195;190;200;192;198;188;196;194;202;190" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="4" fill="#39d353">
-    <animate attributeName="cx" calcMode="discrete" values="560;548;572;540;565;555;575;538;558;570" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="198;192;202;195;200;188;196;204;190;198" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="4" fill="#f0883e">
-    <animate attributeName="cx" calcMode="discrete" values="240;270;300;330;300;270;240;210;180;210" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="100;96;102;98;104;96;100;104;98;102" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="3" fill="#58a6ff" opacity=".6">
-    <animate attributeName="cx" calcMode="discrete" values="470;462;480;455;475;465;485;458;472;468" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="125;130;122;128;118;132;124;126;120;130" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <line x1="365" y1="153" stroke="#58a6ff" stroke-width=".6" stroke-dasharray="3,4">
-    <animate attributeName="x2" calcMode="discrete" values="95;108;120;112;100;88;105;118;96;110" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="y2" calcMode="discrete" values="118;112;120;115;122;118;110;116;124;114" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" calcMode="discrete" values=".3;.15;.4;.2;.1;.35;.15;.4;.2;.1" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="410" y1="153" stroke="#39d353" stroke-width=".6" stroke-dasharray="3,4">
-    <animate attributeName="x2" calcMode="discrete" values="600;588;610;595;618;605;580;598;612;590" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="y2" calcMode="discrete" values="112;118;108;115;110;120;114;106;118;112" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" calcMode="discrete" values=".2;.4;.15;.35;.2;.1;.4;.25;.3;.15" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="365" y1="166" stroke="#58a6ff" stroke-width=".6" stroke-dasharray="3,4">
-    <animate attributeName="x2" calcMode="discrete" values="130;148;140;155;135;150;142;160;138;145" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="y2" calcMode="discrete" values="195;190;200;192;198;188;196;194;202;190" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" calcMode="discrete" values=".15;.3;.2;.4;.1;.3;.2;.1;.35;.25" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <line x1="410" y1="166" stroke="#39d353" stroke-width=".6" stroke-dasharray="3,4">
-    <animate attributeName="x2" calcMode="discrete" values="560;548;572;540;565;555;575;538;558;570" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="y2" calcMode="discrete" values="198;192;202;195;200;188;196;204;190;198" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" calcMode="discrete" values=".3;.1;.35;.2;.4;.15;.25;.3;.1;.4" dur="2s" repeatCount="indefinite"/>
-  </line>
-  <circle r="2.5" fill="#39d353">
-    <animate attributeName="cx" calcMode="discrete" values="40;110;180;250;320;390;460;530;600;670" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="153;153;153;153;153;153;153;153;153;153" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2.5" fill="#58a6ff">
-    <animate attributeName="cx" calcMode="discrete" values="320;390;460;530;600;670;40;110;180;250" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="153;153;153;153;153;153;153;153;153;153" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#f0883e">
-    <animate attributeName="cx" calcMode="discrete" values="600;670;40;110;180;250;320;390;460;530" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="153;153;153;153;153;153;153;153;153;153" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#39d353" opacity=".5">
-    <animate attributeName="cx" calcMode="discrete" values="670;600;530;460;390;320;250;180;110;40" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="163;163;163;163;163;163;163;163;163;163" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle r="2" fill="#58a6ff" opacity=".5">
-    <animate attributeName="cx" calcMode="discrete" values="390;320;250;180;110;40;670;600;530;460" dur="2.5s" repeatCount="indefinite"/>
-    <animate attributeName="cy" calcMode="discrete" values="163;163;163;163;163;163;163;163;163;163" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="330" cy="145" r="1.5" fill="#f0883e">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;.8;0;0;0;.6;0;0;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="420" cy="148" r="1.5" fill="#f0883e">
-    <animate attributeName="opacity" calcMode="discrete" values="0;.7;0;0;0;0;0;.9;0;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="355" cy="170" r="1" fill="#39d353">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;.6;0;.8;0;0;0;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="400" cy="135" r="1" fill="#58a6ff">
-    <animate attributeName="opacity" calcMode="discrete" values=".5;0;0;0;0;0;0;0;.7;0" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="375" cy="138" r="1" fill="#f0883e">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;.9;0;0;0;0;.4" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <line x1="18" y1="235" x2="732" y2="235" stroke="#21262d" stroke-width="1"/>
-  <text x="25" y="255" fill="#39d353" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="5s" repeatCount="indefinite"/>[chain] block #1848 validated &#x2713; consensus reached</text>
-  <text x="25" y="255" fill="#58a6ff" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="5s" repeatCount="indefinite"/>[flow]  data &#x2192; agent.02 &#x2192; chain &#x2192; verified &#x2192; ok</text>
-  <text x="25" y="255" fill="#f0883e" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/>[swarm] negotiation round 7 :: agent.03 wins bid</text>
-  <text x="25" y="255" fill="#39d353" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="5s" repeatCount="indefinite"/>[audit] compliance check passed :: rule 1.7 clear</text>
-  <text x="25" y="255" fill="#58a6ff" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="5s" repeatCount="indefinite"/>[sync]  height 1856 :: all nodes in agreement</text>
-  <text x="25" y="273" fill="#58a6ff" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="5s" repeatCount="indefinite"/>[flow]  agent.01 &#x2192; mine_block &#x2192; chain &#x2192; pending</text>
-  <text x="25" y="273" fill="#39d353" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="5s" repeatCount="indefinite"/>[chain] block #1849 mined :: reward &#x2192; agent.01</text>
-  <text x="25" y="273" fill="#58a6ff" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/>[legal] contract parsed :: clause 4.2 flagged</text>
-  <text x="25" y="273" fill="#f0883e" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="5s" repeatCount="indefinite"/>[swarm] task reassigned :: agent.05 &#x2192; verify_tx</text>
-  <text x="25" y="273" fill="#39d353" font-size="11" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="5s" repeatCount="indefinite"/>[chain] consensus 5/5 :: protocol executed &#x2713;</text>
-  <text x="25" y="293" fill="#8b949e" font-size="11">[status] autonomous</text>
-  <rect x="188" y="282" width="7" height="12" fill="#39d353">
-    <animate attributeName="opacity" calcMode="discrete" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
-  </rect>
-  <line x1="18" y1="308" x2="732" y2="308" stroke="#21262d" stroke-width="1"/>
-  <circle cx="40" cy="325" r="3.5" fill="#39d353">
-    <animate attributeName="opacity" calcMode="discrete" values="1;.4;1;.4;1" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="50" y="329" fill="#484f58" font-size="10">agents: 5</text>
-  <circle cx="165" cy="325" r="3.5" fill="#39d353">
-    <animate attributeName="opacity" calcMode="discrete" values=".4;1;.4;1;.4" dur="2.5s" repeatCount="indefinite"/>
-  </circle>
-  <text x="175" y="329" fill="#484f58" font-size="10">chain: synced</text>
-  <circle cx="310" cy="325" r="3.5" fill="#39d353">
-    <animate attributeName="opacity" calcMode="discrete" values="1;1;.4;1;1" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <text x="320" y="329" fill="#484f58" font-size="10">consensus: ok</text>
-  <circle cx="455" cy="325" r="3.5" fill="#58a6ff">
-    <animate attributeName="opacity" calcMode="discrete" values=".4;1;1;.4;1" dur="1.8s" repeatCount="indefinite"/>
-  </circle>
-  <text x="465" y="329" fill="#484f58" font-size="10">mode: autonomous</text>
-  <text x="620" y="329" fill="#484f58" font-size="10">fps:</text>
-  <text x="648" y="329" fill="#f0883e" font-size="10" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="2.5s" repeatCount="indefinite"/>5</text>
-  <text x="648" y="329" fill="#f0883e" font-size="10" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="2.5s" repeatCount="indefinite"/>4</text>
-  <text x="648" y="329" fill="#f0883e" font-size="10" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="2.5s" repeatCount="indefinite"/>5</text>
-  <text x="648" y="329" fill="#f0883e" font-size="10" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="2.5s" repeatCount="indefinite"/>6</text>
-  <text x="648" y="329" fill="#f0883e" font-size="10" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="2.5s" repeatCount="indefinite"/>5</text>
-  <line x1="18" y1="342" x2="732" y2="342" stroke="#21262d" stroke-width="1"/>
-  <text x="375" y="368" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="1;0;0" dur="9s" repeatCount="indefinite"/>Building agentic workflows and autonomous systems</text>
-  <text x="375" y="368" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;1;0" dur="9s" repeatCount="indefinite"/>Working across AI, blockchain, and the legal space</text>
-  <text x="375" y="368" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0">
-    <animate attributeName="opacity" calcMode="discrete" values="0;0;1" dur="9s" repeatCount="indefinite"/>Just trying to make systems that think and act</text>
+  <text x="375" y="18" text-anchor="middle" fill="#8b949e" font-size="11"><animate attributeName="opacity" keyTimes="0;0.5;0.52;0.98;1.0;1" values="1;1;0;0;1;1" dur="25s" repeatCount="indefinite"/>surya@system ~ vim swarm.py</text>
+  <text x="375" y="18" text-anchor="middle" fill="#8b949e" font-size="11"><animate attributeName="opacity" keyTimes="0;0.5;0.52;0.96;0.98;1" values="0;0;1;1;0;0" dur="25s" repeatCount="indefinite"/>surya@system ~ ./agents --live</text>
+  <g><animate attributeName="opacity" keyTimes="0;0.5;0.52;0.98;1.0;1" values="1;1;0;0;1;1" dur="25s" repeatCount="indefinite"/>
+    <rect x="18" y="32" width="28" height="242" fill="#161b22" rx="0"/>
+    <line x1="46" y1="32" x2="46" y2="274" stroke="#21262d" stroke-width="1"/>
+    <text x="40" y="44" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.016;0.032;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>1</text>
+    <svg x="52" y="32" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.016;0.032;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#5c6370"># swarm.py</tspan></text>
+    </svg>
+    <text x="40" y="58" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.036;0.052;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>2</text>
+    <svg x="52" y="46" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.036;0.052;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#c678dd">import </tspan><tspan fill="#61afef">asyncio</tspan></text>
+    </svg>
+    <text x="40" y="72" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.06;0.076;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>3</text>
+    <svg x="52" y="60" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.06;0.076;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#c678dd">from </tspan><tspan fill="#abb2bf">core </tspan><tspan fill="#c678dd">import </tspan><tspan fill="#61afef">AgentSwarm</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#61afef">ChainNode</tspan></text>
+    </svg>
+    <text x="40" y="100" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.092;0.108;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>5</text>
+    <svg x="52" y="88" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.092;0.108;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#e5c07b">config</tspan><tspan fill="#abb2bf"> = {</tspan><tspan fill="#98c379">&quot;agents&quot;</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#d19a66">5</tspan><tspan fill="#abb2bf">, </tspan><tspan fill="#98c379">&quot;mode&quot;</tspan><tspan fill="#abb2bf">: </tspan><tspan fill="#98c379">&quot;autonomous&quot;</tspan><tspan fill="#abb2bf">}</tspan></text>
+    </svg>
+    <text x="40" y="114" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.12;0.136;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>6</text>
+    <svg x="52" y="102" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.12;0.136;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#e5c07b">swarm</tspan><tspan fill="#abb2bf"> = </tspan><tspan fill="#61afef">AgentSwarm</tspan><tspan fill="#abb2bf">(</tspan><tspan fill="#e5c07b">config</tspan><tspan fill="#abb2bf">)</tspan></text>
+    </svg>
+    <text x="40" y="128" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.144;0.16;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>7</text>
+    <svg x="52" y="116" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.144;0.16;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#e5c07b">chain</tspan><tspan fill="#abb2bf"> = </tspan><tspan fill="#61afef">ChainNode</tspan><tspan fill="#abb2bf">.connect(</tspan><tspan fill="#98c379">&quot;mainnet&quot;</tspan><tspan fill="#abb2bf">)</tspan></text>
+    </svg>
+    <text x="40" y="156" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.18;0.196;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>9</text>
+    <svg x="52" y="144" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.18;0.196;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#c678dd">async </tspan><tspan fill="#c678dd">def </tspan><tspan fill="#61afef">run</tspan><tspan fill="#abb2bf">():</tspan></text>
+    </svg>
+    <text x="36" y="170" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.204;0.22;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>10</text>
+    <svg x="52" y="158" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.204;0.22;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#abb2bf">    </tspan><tspan fill="#c678dd">await </tspan><tspan fill="#e5c07b">swarm</tspan><tspan fill="#abb2bf">.initialize()</tspan></text>
+    </svg>
+    <text x="36" y="184" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.224;0.24;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>11</text>
+    <svg x="52" y="172" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.224;0.24;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#abb2bf">    </tspan><tspan fill="#c678dd">await </tspan><tspan fill="#e5c07b">chain</tspan><tspan fill="#abb2bf">.sync()</tspan></text>
+    </svg>
+    <text x="36" y="198" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.248;0.264;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>12</text>
+    <svg x="52" y="186" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.248;0.264;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#abb2bf">    </tspan><tspan fill="#c678dd">for </tspan><tspan fill="#e5c07b">a</tspan><tspan fill="#c678dd"> in </tspan><tspan fill="#e5c07b">swarm</tspan><tspan fill="#abb2bf">.agents:</tspan></text>
+    </svg>
+    <text x="36" y="212" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.272;0.288;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>13</text>
+    <svg x="52" y="200" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.272;0.288;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#abb2bf">        </tspan><tspan fill="#c678dd">await </tspan><tspan fill="#e5c07b">a</tspan><tspan fill="#abb2bf">.bind(</tspan><tspan fill="#e5c07b">chain</tspan><tspan fill="#abb2bf">)</tspan></text>
+    </svg>
+    <text x="36" y="226" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.292;0.308;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>14</text>
+    <svg x="52" y="214" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.292;0.308;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#abb2bf">    </tspan><tspan fill="#c678dd">await </tspan><tspan fill="#e5c07b">swarm</tspan><tspan fill="#abb2bf">.execute()</tspan></text>
+    </svg>
+    <text x="36" y="254" fill="#5c6370" font-size="10" opacity="0"><animate attributeName="opacity" keyTimes="0;0.32;0.336;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/>16</text>
+    <svg x="52" y="242" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.32;0.336;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#61afef">asyncio</tspan><tspan fill="#abb2bf">.run(</tspan><tspan fill="#61afef">run</tspan><tspan fill="#abb2bf">())</tspan></text>
+    </svg>
+    <line x1="18" y1="270" x2="732" y2="270" stroke="#21262d" stroke-width="1" opacity="0"><animate attributeName="opacity" keyTimes="0;0.344;0.352;1" values="0;0;0.5;0.5" dur="25s" repeatCount="indefinite"/></line>
+    <svg x="25" y="274" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.36;0.374;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#39d353">$ </tspan><tspan fill="#abb2bf">python swarm.py</tspan></text>
+    </svg>
+    <svg x="25" y="292" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.38;0.394;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#39d353">[</tspan><tspan fill="#39d353">████████████████████</tspan><tspan fill="#39d353">] </tspan><tspan fill="#abb2bf">100%</tspan></text>
+    </svg>
+    <svg x="25" y="310" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.4;0.414;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#39d353">✓ </tspan><tspan fill="#abb2bf">5 agents initialized :: online</tspan></text>
+    </svg>
+    <svg x="25" y="326" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.416;0.43;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#39d353">✓ </tspan><tspan fill="#abb2bf">chain synced :: height 1847</tspan></text>
+    </svg>
+    <svg x="25" y="342" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.432;0.446;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#e5c07b">✓ </tspan><tspan fill="#abb2bf">executing swarm protocol...</tspan></text>
+    </svg>
+    <svg x="25" y="362" height="16" style="overflow:hidden">
+      <animate attributeName="width" keyTimes="0;0.46;0.474;1" values="0;0;700;700" dur="25s" repeatCount="indefinite"/>
+      <text x="0" y="13" font-size="11"><tspan fill="#39d353">✓ </tspan><tspan fill="#39d353">network is live</tspan></text>
+    </svg>
+    <g><animate attributeName="opacity" keyTimes="0;0.48;0.4804;1" values="0;0;1;1" dur="25s" repeatCount="indefinite"/>
+      <rect x="200" y="363" width="7" height="12" fill="#39d353">
+        <animate attributeName="opacity" calcMode="discrete" values="1;0" dur="1s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  <g><animate attributeName="opacity" keyTimes="0;0.5;0.52;0.96;0.98;1" values="0;0;1;1;0;0" dur="25s" repeatCount="indefinite"/>
+    <rect x="18" y="38" width="714" height="160" rx="3" fill="none" stroke="#21262d" stroke-width="1" stroke-dasharray="4,3"/>
+    <text x="28" y="52" fill="#484f58" font-size="9">LIVE NETWORK</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1847</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1848</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1849</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1850</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1;0;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1851</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;1;0;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1852</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;1;0;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1853</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;1;0;0" dur="5s" repeatCount="indefinite"/>BLK:#1854</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;0;1;0" dur="5s" repeatCount="indefinite"/>BLK:#1855</text>
+    <text x="700" y="52" text-anchor="end" fill="#f0883e" font-size="9" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;0;0;0;0;0;1" dur="5s" repeatCount="indefinite"/>BLK:#1856</text>
+    <rect x="340" y="108" width="70" height="26" rx="3" fill="#0d1117" stroke="#f0883e" stroke-width="1.5">
+      <animate attributeName="stroke-opacity" calcMode="discrete" values="0.5;0.8;1;0.8;0.5;0.7;1;0.6;0.9;0.5" dur="2s" repeatCount="indefinite"/>
+    </rect>
+    <text x="375" y="126" text-anchor="middle" fill="#f0883e" font-size="11">[####]</text>
+    <circle r="5" fill="#58a6ff">
+      <animate attributeName="cx" calcMode="discrete" values="95;108;120;112;100;88;105;118;96;110" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="82;76;84;79;86;82;74;80;88;78" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="5" fill="#39d353">
+      <animate attributeName="cx" calcMode="discrete" values="600;588;610;595;618;605;580;598;612;590" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="78;84;74;81;76;86;80;72;84;78" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#58a6ff">
+      <animate attributeName="cx" calcMode="discrete" values="130;148;140;155;135;150;142;160;138;145" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="162;157;167;159;165;155;163;161;169;157" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#39d353">
+      <animate attributeName="cx" calcMode="discrete" values="560;548;572;540;565;555;575;538;558;570" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="165;159;169;162;167;155;163;171;157;165" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4" fill="#f0883e">
+      <animate attributeName="cx" calcMode="discrete" values="240;270;300;330;300;270;240;210;180;210" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="66;62;68;64;70;62;66;70;64;68" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#58a6ff" opacity=".6">
+      <animate attributeName="cx" calcMode="discrete" values="470;462;480;455;475;465;485;458;472;468" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="92;97;89;95;85;99;91;93;87;97" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="365" y1="120" stroke="#58a6ff" stroke-width=".6" stroke-dasharray="3,4">
+      <animate attributeName="x2" calcMode="discrete" values="95;108;120;112;100;88;105;118;96;110" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" calcMode="discrete" values="82;76;84;79;86;82;74;80;88;78" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="discrete" values=".3;.15;.4;.2;.1;.35;.15;.4;.2;.1" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="410" y1="120" stroke="#39d353" stroke-width=".6" stroke-dasharray="3,4">
+      <animate attributeName="x2" calcMode="discrete" values="600;588;610;595;618;605;580;598;612;590" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" calcMode="discrete" values="78;84;74;81;76;86;80;72;84;78" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="discrete" values=".2;.4;.15;.35;.2;.1;.4;.25;.3;.15" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="365" y1="134" stroke="#58a6ff" stroke-width=".6" stroke-dasharray="3,4">
+      <animate attributeName="x2" calcMode="discrete" values="130;148;140;155;135;150;142;160;138;145" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" calcMode="discrete" values="162;157;167;159;165;155;163;161;169;157" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="discrete" values=".15;.3;.2;.4;.1;.3;.2;.1;.35;.25" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="410" y1="134" stroke="#39d353" stroke-width=".6" stroke-dasharray="3,4">
+      <animate attributeName="x2" calcMode="discrete" values="560;548;572;540;565;555;575;538;558;570" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="y2" calcMode="discrete" values="165;159;169;162;167;155;163;171;157;165" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" calcMode="discrete" values=".3;.1;.35;.2;.4;.15;.25;.3;.1;.4" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <circle r="2.5" fill="#39d353">
+      <animate attributeName="cx" calcMode="discrete" values="40;110;180;250;320;390;460;530;600;670" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="121;121;121;121;121;121;121;121;121;121" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2.5" fill="#58a6ff">
+      <animate attributeName="cx" calcMode="discrete" values="320;390;460;530;600;670;40;110;180;250" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="121;121;121;121;121;121;121;121;121;121" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#f0883e">
+      <animate attributeName="cx" calcMode="discrete" values="600;670;40;110;180;250;320;390;460;530" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="121;121;121;121;121;121;121;121;121;121" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#39d353" opacity=".5">
+      <animate attributeName="cx" calcMode="discrete" values="670;600;530;460;390;320;250;180;110;40" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="131;131;131;131;131;131;131;131;131;131" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="2" fill="#58a6ff" opacity=".5">
+      <animate attributeName="cx" calcMode="discrete" values="390;320;250;180;110;40;670;600;530;460" dur="2.5s" repeatCount="indefinite"/>
+      <animate attributeName="cy" calcMode="discrete" values="131;131;131;131;131;131;131;131;131;131" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="330" cy="112" r="1.5" fill="#f0883e">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;.8;0;0;0;.6;0;0;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="115" r="1.5" fill="#f0883e">
+      <animate attributeName="opacity" calcMode="discrete" values="0;.7;0;0;0;0;0;.9;0;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="355" cy="138" r="1" fill="#39d353">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;.6;0;.8;0;0;0;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="103" r="1" fill="#58a6ff">
+      <animate attributeName="opacity" calcMode="discrete" values=".5;0;0;0;0;0;0;0;.7;0" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="375" cy="105" r="1" fill="#f0883e">
+      <animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;.9;0;0;0;0;.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <line x1="18" y1="203" x2="732" y2="203" stroke="#21262d" stroke-width="1"/>
+    <text x="25" y="222" fill="#39d353" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="5s" repeatCount="indefinite"/>[chain] block #1848 validated &#x2713; consensus reached</text>
+    <text x="25" y="222" fill="#58a6ff" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="5s" repeatCount="indefinite"/>[flow]  data &#x2192; agent.02 &#x2192; chain &#x2192; verified</text>
+    <text x="25" y="222" fill="#f0883e" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/>[swarm] negotiation round 7 :: agent.03 wins bid</text>
+    <text x="25" y="222" fill="#39d353" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="5s" repeatCount="indefinite"/>[audit] compliance check passed :: rule 1.7 clear</text>
+    <text x="25" y="222" fill="#58a6ff" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="5s" repeatCount="indefinite"/>[sync]  height 1856 :: all nodes in agreement</text>
+    <text x="25" y="240" fill="#58a6ff" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="5s" repeatCount="indefinite"/>[flow]  agent.01 &#x2192; mine_block &#x2192; chain &#x2192; pending</text>
+    <text x="25" y="240" fill="#39d353" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="5s" repeatCount="indefinite"/>[chain] block #1849 mined :: reward &#x2192; agent.01</text>
+    <text x="25" y="240" fill="#58a6ff" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="5s" repeatCount="indefinite"/>[legal] contract parsed :: clause 4.2 flagged</text>
+    <text x="25" y="240" fill="#f0883e" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="5s" repeatCount="indefinite"/>[swarm] task reassigned :: agent.05 &#x2192; verify_tx</text>
+    <text x="25" y="240" fill="#39d353" font-size="11" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="5s" repeatCount="indefinite"/>[chain] consensus 5/5 :: protocol executed &#x2713;</text>
+    <text x="25" y="260" fill="#8b949e" font-size="11">[status] autonomous</text>
+    <rect x="188" y="249" width="7" height="12" fill="#39d353">
+      <animate attributeName="opacity" calcMode="discrete" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    <line x1="18" y1="275" x2="732" y2="275" stroke="#21262d" stroke-width="1"/>
+    <circle cx="40" cy="293" r="3.5" fill="#39d353"><animate attributeName="opacity" calcMode="discrete" values="1;.4;1;.4;1" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="50" y="297" fill="#484f58" font-size="10">agents: 5</text>
+    <circle cx="165" cy="293" r="3.5" fill="#39d353"><animate attributeName="opacity" calcMode="discrete" values=".4;1;.4;1;.4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <text x="175" y="297" fill="#484f58" font-size="10">chain: synced</text>
+    <circle cx="310" cy="293" r="3.5" fill="#39d353"><animate attributeName="opacity" calcMode="discrete" values="1;1;.4;1;1" dur="3s" repeatCount="indefinite"/></circle>
+    <text x="320" y="297" fill="#484f58" font-size="10">consensus: ok</text>
+    <circle cx="455" cy="293" r="3.5" fill="#58a6ff"><animate attributeName="opacity" calcMode="discrete" values=".4;1;1;.4;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="465" y="297" fill="#484f58" font-size="10">mode: autonomous</text>
+    <text x="620" y="297" fill="#484f58" font-size="10">fps:</text>
+    <text x="648" y="297" fill="#f0883e" font-size="10" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0;0;0" dur="2.5s" repeatCount="indefinite"/>5</text>
+    <text x="648" y="297" fill="#f0883e" font-size="10" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0;0;0" dur="2.5s" repeatCount="indefinite"/>4</text>
+    <text x="648" y="297" fill="#f0883e" font-size="10" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1;0;0" dur="2.5s" repeatCount="indefinite"/>5</text>
+    <text x="648" y="297" fill="#f0883e" font-size="10" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;1;0" dur="2.5s" repeatCount="indefinite"/>6</text>
+    <text x="648" y="297" fill="#f0883e" font-size="10" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;0;0;1" dur="2.5s" repeatCount="indefinite"/>5</text>
+    <line x1="18" y1="310" x2="732" y2="310" stroke="#21262d" stroke-width="1"/>
+    <text x="375" y="335" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="1;0;0" dur="9s" repeatCount="indefinite"/>Building agentic workflows and autonomous systems</text>
+    <text x="375" y="335" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;1;0" dur="9s" repeatCount="indefinite"/>Working across AI, blockchain, and the legal space</text>
+    <text x="375" y="335" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0"><animate attributeName="opacity" calcMode="discrete" values="0;0;1" dur="9s" repeatCount="indefinite"/>Just trying to make systems that think and act</text>
 
+  </g>
   <rect width="750" height="2" fill="#58a6ff" opacity=".015">
     <animateTransform attributeName="transform" type="translate" values="0,-400;0,400" dur="5s" repeatCount="indefinite"/>
   </rect>
