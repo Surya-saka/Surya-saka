@@ -174,7 +174,7 @@
     <animate attributeName="opacity" calcMode="discrete" values="0;1;0" dur="9s" repeatCount="indefinite"/>Working across AI, blockchain, and the legal space</text>
   <text x="375" y="368" text-anchor="middle" fill="#c9d1d9" font-size="12" font-weight="bold" opacity="0">
     <animate attributeName="opacity" calcMode="discrete" values="0;0;1" dur="9s" repeatCount="indefinite"/>Just trying to make systems that think and act</text>
-  <text x="375" y="390" text-anchor="middle" fill="#484f58" font-size="9">systems that think, decide, and execute &#x2014; autonomously.</text>
+
   <rect width="750" height="2" fill="#58a6ff" opacity=".015">
     <animateTransform attributeName="transform" type="translate" values="0,-400;0,400" dur="5s" repeatCount="indefinite"/>
   </rect>
